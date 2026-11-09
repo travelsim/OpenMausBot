@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ebay-average-selling-price": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.rapidapi.com",
+        "--header",
+        "x-api-host: ebay-average-selling-price.p.rapidapi.com",
+        "--header",
+        "x-api-key: proxy-injected"
+      ]
+    }
+  }
+}
